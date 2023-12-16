@@ -1,5 +1,5 @@
 .container-fluid {
-    background-image: url(img/testimonial-bg-2.jpg);
+    background-image: url(img/contact.jpg);
 }
 
 /*
@@ -5263,19 +5263,20 @@ Home page version three style
 /* Contact Section Start */
 
 .contact-section {
-    background-image: url(img/testimonial-bg-2.jpg);
+    background-image: url(img/contact.jpg);
+    /* background-color:#fff; */
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    /* padding-bottom: 100px;*/
     position: relative;
 }
 
 .contact-section:before {
+    background-color: #ffffff75;
     content: "";
     position: absolute;
-    opacity: .1;
+    
     width: 100%;
     height: 100%;
     top: 0;
